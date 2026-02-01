@@ -4,7 +4,7 @@
 
 **A local dev port monitor for macOS and Windows**
 
-DevPortMonitor quickly scans localhost dev servers (ports 3000–9000),
+DevPortMonitor quickly scans localhost dev servers (ports 1024–65535),
 shows **which stacks are using which ports** at a glance, and lets you
 **terminate them instantly** when needed.
 
@@ -21,7 +21,7 @@ shows **which stacks are using which ports** at a glance, and lets you
 
 ## ✨ Highlights
 
-- **Auto‑detects** localhost dev servers (ports 3000–9000)
+- **Auto‑detects** localhost dev servers (ports 1024–65535)
 - **Smart grouping** by tech stack (Node, Python, Ruby, Java, etc.)
 - **One‑click kill** for single processes or all dev ports
 - **Auto refresh** every 10 seconds
